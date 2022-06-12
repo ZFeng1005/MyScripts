@@ -64,24 +64,6 @@
 30 20 * * * node /scripts/jd_exchangejxbeans.js >> /scripts/logs/jd_exchangejxbeans.log 2>&1
 #京东小魔方--收集兑换
 31 8 * * * node /scripts/jd_mofang_ex.js >> /scripts/logs/jd_mofang_ex.log 2>&1
-#jd_opencard134
-30 3 1-5,18-30/3 4,5 * node /scripts/jd_opencard134.js >> /scripts/logs/jd_opencard134.log 2>&1
-#jd_opencard151
-30 8,19 17-31 5 * node /scripts/jd_opencard151.js >> /scripts/logs/jd_opencard151.log 2>&1
-#jd_opencard152
-30 1,12 17-31 5 * node /scripts/jd_opencard152.js >> /scripts/logs/jd_opencard152.log 2>&1
-#jd_opencard153
-30 9 17-31/2,1-16/2 5,6 * node /scripts/jd_opencard153.js >> /scripts/logs/jd_opencard153.log 2>&1
-#jd_opencard154
-30 1 18-31/2 5 * node /scripts/jd_opencard154.js >> /scripts/logs/jd_opencard154.log 2>&1
-#jd_opencard155
-15 3 20-28/2 5 * node /scripts/jd_opencard155.js >> /scripts/logs/jd_opencard155.log 2>&1
-#jd_opencard156
-30 2 20-31/2 5 * node /scripts/jd_opencard156.js >> /scripts/logs/jd_opencard156.log 2>&1
-#jd_opencard159
-30 1 24-31/2,2-19/2 5,6 * node /scripts/jd_opencard159.js >> /scripts/logs/jd_opencard159.log 2>&1
-#jd_opencard63
-30 0,9,20 1-20 6 * node /scripts/jd_opencard163.js >> /scripts/logs/jd_opencard163.log 2>&1
 # 财富岛珍珠兑换
 59 0-23/1 * * * node /scripts/jd_cfd_pearl_ex.js >> /scripts/logs/jd_cfd_pearl_ex.log 2>&1
 # 天天压岁钱
@@ -114,6 +96,30 @@
 35 21 */3 * * node /scripts/jd_pay_contract.js >> /scripts/logs/jd_pay_contract.log 2>&1
 #省钱大赢家
 20 0-23/2 * * * node /scripts/jd_flipcards.js >> /scripts/logs/jd_flipcards.log 2>&1
+#jd_opencard153
+30 9 17-31/2,1-16/2 5,6 * node /scripts/jd_opencard153.js >> /scripts/logs/jd_opencard153.log 2>&1
+#jd_opencard159
+30 1 24-31/2,2-19/2 5,6 * node /scripts/jd_opencard159.js >> /scripts/logs/jd_opencard159.log 2>&1
+#jd_opencard63
+30 0,9,20 1-20 6 * node /scripts/jd_opencard163.js >> /scripts/logs/jd_opencard163.log 2>&1
+#jd_opencard166
+30 0,9,20 1-20 6 * node /scripts/jd_opencard166.js >> /scripts/logs/jd_opencard166.log 2>&1
+#jd_opencard167
+10 1,10 1-20 6 * node /scripts/jd_opencard167.js >> /scripts/logs/jd_opencard167.log 2>&1
+#jd_opencard168
+20 2,11 1-20 6 * node /scripts/jd_opencard168.js >> /scripts/logs/jd_opencard168.log 2>&1
+#jd_opencard169
+40 3,12 1-20 6 * node /scripts/jd_opencard169.js >> /scripts/logs/jd_opencard169.log 2>&1
+#jd_opencard170
+30 4,13 1-20 6 * node /scripts/jd_opencard170.js >> /scripts/logs/jd_opencard170.log 2>&1
+#jd_opencard177
+25 5,14 1-20 6 * node /scripts/jd_opencard177.js >> /scripts/logs/jd_opencard177.log 2>&1
+#jd_opencard178
+50 6,15 1-20 6 * node /scripts/jd_opencard178.js >> /scripts/logs/jd_opencard178.log 2>&1
+#jd_opencard183
+33 7,16 1-20 6 * node /scripts/jd_opencard183.js >> /scripts/logs/jd_opencard183.log 2>&1
+#jd_opencard182
+28 8,17 1-20 6 * node /scripts/jd_opencard182.js >> /scripts/logs/jd_opencard182.log 2>&1
 ##############长期活动##############
 # 签到
 0 0,18 * * * cd /scripts && node jd_bean_sign.js >> /scripts/logs/jd_bean_sign.log 2>&1
