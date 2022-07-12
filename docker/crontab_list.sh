@@ -66,6 +66,10 @@
 18 0,9,20 1-8 7 * node /scripts/jd_opencard186.js >> /scripts/logs/jd_opencard186.log 2>&1
 #jd_opencard188
 45 2,13,23 6-13 7 * node /scripts/jd_opencard188.js >> /scripts/logs/jd_opencard188.log 2>&1
+#jd_opencard190
+5 4,9,21 722 7 * node /scripts/jd_opencard190.js >> /scripts/logs/jd_opencard190.log 2>&1
+#jd_opencard191
+23 5,14,22 12-20 7 * node /scripts/jd_opencard191.js >> /scripts/logs/jd_opencard191.log 2>&1
 #jd_joy_park_task
 2 2,15 * * * node /scripts/jd_joy_park_task.js >> /scripts/logs/jd_joy_park_task.log 2>&1
 #jd_joy_park_exchange
