@@ -62,18 +62,18 @@
 58 59 7,10,13,15,19 * * * node /scripts/jd_10_4.js >> /scripts/logs/jd_10_4.log 2>&1
 #jd_pay_contract
 35 21 */3 * * node /scripts/jd_pay_contract.js >> /scripts/logs/jd_pay_contract.log 2>&1
-#jd_opencard186
-18 0,9,20 1-8 7 * node /scripts/jd_opencard186.js >> /scripts/logs/jd_opencard186.log 2>&1
-#jd_opencard188
-45 2,13,23 6-13 7 * node /scripts/jd_opencard188.js >> /scripts/logs/jd_opencard188.log 2>&1
-#jd_opencard190
-5 4,9,21 722 7 * node /scripts/jd_opencard190.js >> /scripts/logs/jd_opencard190.log 2>&1
-#jd_opencard191
-23 5,14,22 12-20 7 * node /scripts/jd_opencard191.js >> /scripts/logs/jd_opencard191.log 2>&1
+#jd_opencard196
+15 3,6,18 26-31,1-22 7,8 * node /scripts/jd_opencard196.js >> /scripts/logs/jd_opencard196.log 2>&1
+#jd_opencard198
+45 1,5,13 26-31,1-4 7,8 * node /scripts/jd_opencard198.js >> /scripts/logs/jd_opencard198.log 2>&1
+#jd_opencard200
+23 9,14,23 24-31,1-4 7,8 * node /scripts/jd_opencard200.js >> /scripts/logs/jd_opencard200.log 2>&1
 #jd_joy_park_task
 2 2,15 * * * node /scripts/jd_joy_park_task.js >> /scripts/logs/jd_joy_park_task.log 2>&1
 #jd_joy_park_exchange
 20 * * * * node /scripts/jd_joy_park_exchange.js >> /scripts/logs/jd_joy_park_exchange.log 2>&1
+#jd_superBrandZII
+5 6,10,18 * * * node /scripts/jd_superBrandZII.js >> /scripts/logs/jd_superBrandZII.log 2>&1
 ##############长期活动##############
 # 签到
 0 0,18 * * * cd /scripts && node jd_bean_sign.js >> /scripts/logs/jd_bean_sign.log 2>&1
