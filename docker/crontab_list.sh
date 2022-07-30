@@ -74,6 +74,8 @@
 20 * * * * node /scripts/jd_joy_park_exchange.js >> /scripts/logs/jd_joy_park_exchange.log 2>&1
 #jd_superBrandZII
 5 6,10,18 * * * node /scripts/jd_superBrandZII.js >> /scripts/logs/jd_superBrandZII.log 2>&1
+#jd_SuperBrandJXZ
+3 10,17,20 * * * node /scripts/jd_SuperBrandJXZ.js >> /scripts/logs/jd_SuperBrandJXZ.log 2>&1
 ##############长期活动##############
 # 签到
 0 0,18 * * * cd /scripts && node jd_bean_sign.js >> /scripts/logs/jd_bean_sign.log 2>&1
