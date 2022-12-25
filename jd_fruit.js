@@ -527,14 +527,14 @@ async function turntableFarm() {
       }
     }
     //天天抽奖助力
-    console.log('开始天天抽奖--好友助力--每人每天只有三次助力机会.')
+    /*console.log('开始天天抽奖--好友助力--每人每天只有三次助力机会.')
     for (let code of newShareCodes) {
       if (code === $.farmInfo.farmUserPro.shareCode) {
         console.log('天天抽奖-不能自己给自己助力\n')
         continue
       }
       await lotteryMasterHelp(code);
-      // console.log('天天抽奖助力结果',lotteryMasterHelpRes.helpResult)
+      console.log('天天抽奖助力结果',lotteryMasterHelpRes.helpResult)
       if ($.lotteryMasterHelpRes.helpResult.code === '0') {
         console.log(`天天抽奖-助力${$.lotteryMasterHelpRes.helpResult.masterUserInfo.nickName}成功\n`)
       } else if ($.lotteryMasterHelpRes.helpResult.code === '11') {
@@ -543,7 +543,7 @@ async function turntableFarm() {
         console.log(`天天抽奖-助力${$.lotteryMasterHelpRes.helpResult.masterUserInfo.nickName}失败,助力次数耗尽\n`);
         break;
       }
-    }
+    }*/
     console.log(`---天天抽奖次数remainLotteryTimes----${remainLotteryTimes}次`)
     //抽奖
     if (remainLotteryTimes > 0) {
